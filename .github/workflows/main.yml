@@ -24,7 +24,7 @@ jobs:
         run: dotnet restore WebApi
 
       - name: Build 🧱
-        run: dotnet build WebApi --configuration Release --no-restore
+        run: dotnet build minimal_api_csharp --configuration Release --no-restore
 
       - name: Test 🧪
-        run: dotnet test WebApi --configuration Release --no-build
+        run: dotnet test minimal_api_csharp --configuration Release --no-build
