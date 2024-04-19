@@ -12,8 +12,8 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution: '**/gjayz099/csharp.sln'
-  project: '**/gjayz099/csharp.csproj'
+  solution: '**/gjayz099/minimal_api_csharp.sln'
+  project: '**/gjayz099/minimal_api_csharp.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
