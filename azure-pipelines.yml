@@ -7,13 +7,13 @@ trigger:
 - none
 
 pool:
-  vmImage: 'windows'
+  vmImage: 'windows-latest'
 
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution: 'minimal_api_csharp.sln'
-  project: 'minimal_api_csharp.csproj'
+  solution: '**/gjayz099/csharp.sln'
+  project: '**/gjayz099/csharp.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
